@@ -78,5 +78,8 @@ register hook for when versions are not satisfied hooks are run before the funct
   })
   ```
 
+## License
+MIT
+
 
 
