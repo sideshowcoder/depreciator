@@ -58,7 +58,7 @@ ensure version globally for every function in the module it is enabled for.
 ensure version for just this function and call fallback if versions don't match
 
   ```javascript
-  version.ensure(3, 'func', function(thing, version, expectedVersion) {
+  depreciator.ensure(3, 'func', function(thing, version, expectedVersion) {
     console.log("you are old")
   })
   ```
@@ -66,7 +66,7 @@ ensure version for just this function and call fallback if versions don't match
 install a global fallback function to be called on version missmatch
 
   ```javascript
-  version.ensure(1, function(thing, version, expected) {
+  depreciator.ensure(1, function(thing, version, expected) {
     console.log("OLD!!!")
   })
   ```
@@ -75,7 +75,7 @@ install a global fallback function to be called on version missmatch
 register hook for when versions are not satisfied hooks are run before the function is called
 
   ```javascript
-  version.registerMismatchHook(function(thing, version, expected) {
+  depreciator.registerMismatchHook(function(thing, version, expected) {
     console.log("OLD!!!")
   })
   ```
