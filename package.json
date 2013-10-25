@@ -1,0 +1,23 @@
+{
+  "name": "depreciator",
+  "version": "0.0.1",
+  "description": "versioning for object function arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sideshowcoder/depreciator.git"
+  },
+  "keywords": [
+    "json",
+    "versioning",
+    "objects"
+  ],
+  "author": "sideshowcoder",
+  "license": "BSD",
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
+  }
+}
