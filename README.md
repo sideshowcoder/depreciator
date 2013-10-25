@@ -1,4 +1,6 @@
-# Depreciator versioning support for data argument
+# Depreciator 
+
+## Versioning support for data argument
 
 Sometimes a it is nice to know which version of data a function is passed.
 Especially in NoSQL land it can be used to ensure some kind of schema, and
